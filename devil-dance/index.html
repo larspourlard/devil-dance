@@ -7,12 +7,7 @@
     <style>
         /* for iOS */
       button {
-        height: 4em ;
-        display: block ;
-      }
-      button span {
-        display: block ;
-        font-weight: bold ;
+        -webkit-appearance: none ;
       }
     </style>
   </head>
@@ -30,7 +25,7 @@
       <div
         style=" margin: auto; width: 80%; text-align: center; "
       >
-        <button onclick="document.getElementById('kangax').chooseThisSide();">STUBBORN:<span>obj.prototype.chooseThisSide()</span></button>
+        <button onclick="document.getElementById('kangax').chooseThisSide();">STUBBORN:<br>obj.prototype.chooseThisSide()</button>
         <button onclick="chooseThatSide(document.getElementById('kangax'))"><i>Frameworker:</i><br>chooseThatSide(obj)</button>
         <button onclick="document.getElementById('kangax').style.transform='none' ; document.getElementById('kangax').style.marginLeft='auto'" ; style="font-size:0.7em;margin-top: 1em ;">don't know yet</button>
         <p>
